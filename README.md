@@ -1,2 +1,3 @@
 # programacionc
-Codigos de la Programas C
+Codigos de la Clase de Programacion C
+
