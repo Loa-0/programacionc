@@ -1,0 +1,9 @@
+Estructura Datos {
+        int IdCiudad;
+        char Abreviatura[6];
+        string Nombre;
+        int  Municipios;
+        int  Localidades;
+		char Estatus;
+        } Edo;
+
