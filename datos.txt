@@ -1,1 +1,4 @@
 Numero,Nombre,Sexo
+3,Isaac,H
+4,juan,H
+5,Fer,M

@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
 
 	fstream archivo("datos.txt", ios::in);
 	getline(archivo, sCadena);					// Encabezados
+	cout<<sCadena<<endl;
 	while (archivo.eof()==false) {
 		getline(archivo, sCadena);		
 		strcpy(cCadena, sCadena.c_str());
@@ -36,9 +37,9 @@ int main(int argc, char *argv[]) {
 		ptrToken = strtok (NULL, "," );
 		Emp.Sexo = ptrToken[0];
 
-		if (Emp.Numero == 2) {
-			mostrarEmp(Emp);
-		}
+		//if (Emp.Numero == 2) {
+			mostrarEmp(Emp);  
+		//}
 	}	
 	archivo.close();
 	
