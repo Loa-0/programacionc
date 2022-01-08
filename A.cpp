@@ -6,7 +6,5 @@ int main() {
    printf( "Pulsa una tecla para continuar...\n" );
    getch();
 	 void clrscr(void);
-
-
    return 0;
 }
